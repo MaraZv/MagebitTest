@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Source Sans Pro';
+}
+
+.background {
+    display: grid;
+    position: relative;
+    top:0;
+    left:0; 
+    position:fixed; 
+    min-width:100%;
+    min-height:100%;
+}
+
+h2 {
+    margin: 0% 34%;
+}
+
+.profileimg {
+    height: 50px;
+    width: 50px;
+}
+
+.formTitle {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    height: 25px;
+    width: 40px;
+    margin-left: 100px;
+}
+
+hr {
+    height: 2px;
+    width: 40px;
+    margin-bottom: 20px;
+    border-color: rgb(72, 146, 214);
+}
+
+.alert {
+    position: relative;
+    height: 30px;
+    margin: 20px auto;
+    background-color: tomato;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 3px;
+}
+
+.btnContainer {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.v-btn__content {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+}
+
+.registerBack {
+    background-color: rgba(21, 21, 49, 0.85);
+    height: 420px;  
+    width: 1100px;
+    margin: 230px auto 0px;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+#signUpTxt {
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans Pro';
+    width: 350px;
+    margin: 0px 0px 0px 80px;
+    display: inline-block;
+}
+
+#logInTxt {
+    color: white;
+    width: 350px;
+    position: absolute;
+    opacity: 0%;
+    font-family: 'Source Sans Pro';
+    margin-left: 40em;
+    margin-top: 40px;
+    display: none;
+}
+
+.forgotLink {
+    padding-left: 40px;
+    color: grey;
+}
+
+#loginForm {
+    margin-left: 80px;
+    position: absolute;
+}
+
+#signupForm {
+    opacity: 0%;
+    margin-left: 80px;
+    margin-right: 130px;
+}
+
+.registerFront {
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 500px;
+    position: absolute;
+    border-left: 7px solid rgb(21, 21, 49);
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 1%;
+    font-family: 'Source Sans Pro';
+    display: inline-block;
+    margin-left: 550px;
+}
+
+.registerFront2 {
+    background-color: rgba(255, 255, 255, 0);
+    height: 430px;
+    width: 500px;
+    position: absolute;
+    font-family: 'Source Sans Pro';
+    display: inline-block;
+    margin-left: 550px;
+}
+
+#animation2 {
+    display: none;
+}
+
+.message {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin: 200px auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.message p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.birthday {
+    width: 100px;
+    display: inline-block;
+}
+
+.profileRow {
+    margin: 0 auto;
+}
+
+.profileForm {
+    position: relative;
+    background-color: white;
+    border-radius: 5%;
+    width: 700px;
+}
+
+.profileInfo {
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(45, 230, 230);
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+footer {
+    width: 380px;
+    line-height: 14px;
+    position: relative;
+    bottom: 50px;
+    margin: 0 auto;
+    color: #a7b3cb;
+    font-size: 13px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 200px;
+}
